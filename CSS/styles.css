@@ -1,0 +1,130 @@
+
+body {
+    font-family: "arial", sans-serif;
+    background-color: #F6F2D4;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contact-body {
+    position: relative;
+    top: 75px;
+    left: 1.5em;
+}
+
+.contact-name {
+  margin: 0;
+}
+
+.hobbies-body {
+  position: relative;
+  top: 75px;
+  left: 1.5em;
+}
+
+.hobbies-h3 {
+  margin-top: 0;
+}
+
+hr {
+    border-style: dotted none none;
+    height: 0px;
+    width: 4%;
+    border-width: 8px;
+    border-color: #95D1CC;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    top: 20px;
+}
+
+/*******BORDER COLOR MUST COME AFTER BORDER ESTABLISHED***********/
+
+.profile-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.profile-image:hover {
+  transform:scale(1.25) rotate(-15deg);
+  transition: all .4s;
+}
+
+.links {
+    color: #22577E;
+}
+
+.links:hover {
+    transition: .7s;
+    color: #95D1CC;
+}
+
+h1 {
+    color: #22577E;
+}
+
+h3 {
+    color: #5584AC;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+}
+.nav {
+  color:#22577E;
+  background-color: #95D1CC;
+  position: fixed;
+  z-index: 99;
+}
+
+.home {
+  position: absolute;
+  right: 400px;
+  line-height: 1;
+}
+
+.contact {
+  position: absolute;
+  right: 220px;
+  line-height: 1;
+}
+
+.hobbies {
+  position: absolute;
+  right: 40px;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #22577E;
+
+}
+
+a:hover {
+  transition: .4s;
+  color: grey;
+}
+
+.intro {
+  position: relative;
+  top: 50px;
+  padding-left: 1.5em;
+}
+
+.main-body {
+  position: relative;
+  top: 50px;
+  padding-left: 1.5em;
+}
+
+.work-table {
+  border: 1px solid black;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
